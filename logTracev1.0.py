@@ -1,8 +1,9 @@
-
+#!/usr/bin/env python3
 """
     This program can take any text file, extract any ipv4 addresses found,
     and run GeoIP and RDAP checks
     Author: Brian Bode
+    Version: 1.0
 """
 
 from __future__ import print_function
