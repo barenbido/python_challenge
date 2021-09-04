@@ -13,7 +13,8 @@ python3 logTracev1.0.py -f <filename>
 ```
 
 Sample Result:
-![image](https://user-images.githubusercontent.com/90003728/132078137-2bf91583-bcec-4bbc-b1f5-d1f32656e51f.png)
+![image](https://user-images.githubusercontent.com/90003728/132078733-dbef153b-03b1-45b5-a825-f546e894aba8.png)
+
 
 # P.S. this is designed to extract any found IP addresses, and works on any txt log or even .eml (email files)!
 
