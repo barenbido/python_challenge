@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
     This program can take any text file, extract any ipv4 addresses found,
     and run GeoIP and RDAP checks
@@ -81,7 +80,7 @@ def traceRDAP(ip):
         if ipObject.is_private is not True:
             try:
                 obj = IPWhois(ip)
-                res = obj.lookup_whois()
+                res = obj.lookup_rdap()
                 return res
             except Exception as e:
                 msg = 'unable to resolve RDAP, It is recommended to check the source and be sure this is actually an IP address.'
