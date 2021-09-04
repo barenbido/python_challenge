@@ -58,7 +58,7 @@ def geoLoc(ip):
             try:
                 base_url = 'http://api.ipstack.com/'
                 url = urljoin(base_url, ip)
-                params = { "access_key": "5dcc2ad37796ca17aa947108974459c2" }
+                params = { "access_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" }
                 res = requests.get(url=url, params=params)
                 data = res.json()
                 #s = 'City: %s | Region' + data["city"] + '| Region: ' + data["region_name"] +'| Country: '+ data["country_name"])
